@@ -1,0 +1,40 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.project-slip {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px auto;
+  width: 100%;
+  padding: 5px 5px 10px 5px;
+
+  .project-logo {
+    text-align: center;
+    padding-top: 10px;
+    
+    img {
+      border: 1px solid gray;
+      width: 100%;
+    }
+  }
+
+  .project-title {
+
+  }
+
+  .project-supervisor-name {
+
+  }
+
+  .project-go > .glyphicon {
+    padding: 20px;
+    font-size: 45px;
+    color: gray;
+  }
+
+  &:hover {
+    .project-go > .glyphicon {
+      color: blue;
+    }
+  }
+}

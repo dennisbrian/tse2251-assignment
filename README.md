@@ -1,24 +1,9 @@
-# README
+# TSE2251 Prototype
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Just another prototype built for assignemnt. Again, with my 'boring stack' Ruby on Rails.
 
-Things you may want to cover:
+This prototype will be so real, it might as well replace FCI's current FYP management system.
 
-* Ruby version
+## Database Requirement
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It uses SQLite. Too lazy to setup PostgreSQL for a prototype. Feel free to pull, bundle install, and run.

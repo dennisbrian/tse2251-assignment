@@ -1,0 +1,30 @@
+<div ng-controller="projects_index_controller" ng-init="init()">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>FCI FYP 3.0</h1>
+      <p>Looks so much better right? :P</p>
+    </div>
+  </div>  
+  <div class="container">
+    <input class="form-control" placeholder="Search by title, type, specialization, lecturer's name..." ng-model="project_search"></input>
+    <div class="project-slip row" ng-repeat="project in projects | filter: project_search">
+      <a href="/projects/{{ project.id }}">
+        <span class="project-logo col-xs-1">
+          <img class="img-circle" src="<%= asset_path 'machine-learning.jpg' %>"></img>
+        </span>
+        <div class="project-info col-xs-10">
+          <h3 class="project-title">
+            {{ project.title }}
+          </h3>
+          <p class="project-supervisor-name">{{ project.supervisor_name }}</p>
+        </div>
+        <div class="project-go col-xs-1">
+          <span class="glyphicon glyphicon-chevron-right"> </span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <script type="application/json" id="projects_list_json">
+    <%= @projects_json.html_safe %>
+  </script>
+</div>

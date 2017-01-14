@@ -20,8 +20,8 @@ gem 'ng-toaster-rails'
 # gem 'groupdate'
 
 # To verify MMU student identity
-# gem "devise"
-# gem "omniauth-google-oauth2"
+gem "devise"
+gem "omniauth-google-oauth2"
 
 # Handle resumes upload
 # gem "paperclip", "~> 5.0.0"

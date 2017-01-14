@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <a href="/" class="navbar-brand">
+      Back To List
+    </a>
+  </div>
+</nav>
+<div class="container">
+  <h1><%= @project.title %></h1>
+  <div class="row">
+    <div class="col-xs-12 col-lg-4">
+      <h3>Description</h3>
+      <div>
+        <%= simple_format @project.description %>
+      </div>
+    </div>
+    <div class="col-xs-12 col-lg-4">
+      <h3>Outcomes</h3>
+      <div>
+        <%= simple_format @project.outcomes %>
+      </div>
+    </div>
+    <div class="col-xs-12 col-lg-4">
+      <h3>Scope</h3>
+      <div>
+        <%= simple_format @project.scope %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  supervisor_id: 1
+  cosupervisor_id: 1
+  specialization_id: 1
+  project_nature: 1
+  description: MyText
+  outcomes: MyText
+  scope: MyText
+
+two:
+  title: MyString
+  supervisor_id: 1
+  cosupervisor_id: 1
+  specialization_id: 1
+  project_nature: 1
+  description: MyText
+  outcomes: MyText
+  scope: MyText
